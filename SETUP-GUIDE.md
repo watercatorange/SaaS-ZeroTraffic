@@ -59,7 +59,7 @@ npm run dev
 1. **Download Agent Script**
    ```powershell
    # Buka PowerShell sebagai Administrator
-   Invoke-WebRequest -Uri "https://raw.githubusercontent.com/yourdomain/agent/windows-agent.ps1" -OutFile "windows-agent.ps1"
+   Invoke-WebRequest -Uri "https://raw.githubusercontent.com/odaysec/agent/windows-agent.ps1" -OutFile "windows-agent.ps1"
    ```
 
 2. **Set Execution Policy** (jika diperlukan)
@@ -76,7 +76,7 @@ npm run dev
 
 1. **Download & Setup**
    ```bash
-   curl -o linux-agent.sh https://raw.githubusercontent.com/yourdomain/agent/linux-agent.sh
+   curl -o linux-agent.sh https://raw.githubusercontent.com/odaysec/agent/linux-agent.sh
    chmod +x linux-agent.sh
    ```
 
